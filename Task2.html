@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <fieldset>
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname"><br><br>
+        <label for="lastname">Last Name: &emsp;</label> 
+        <input type="text" name="lastname" required><br><br> 
+        <label for="email">Email: &emsp;</label> 
+        <input type="email" name="email" required><br><br> 
+        <label for="password">Password: &emsp;</label> 
+        <input type="password" name="pass" required><br><br> 
+        <label for="gender">Gender: &emsp;         </label><br> 
+        <input name="input" type="radio" name="gender" value="male"/>
+        <label>Male</label><br>
+        <input name="input" type="radio"  name="gender" value="female"/>
+        <label>Female</label><br>
+        <input name="input" type="radio"  name="gender" value="other"/>
+        <label>Other</label><br><br>
+
+        <label for="hobbies">Hobbies: &emsp; </label><br>
+        <label for="read">Reading</label>
+        <input type="checkbox" name="read"><br><br>
+        <label for="trek">Trekking</label>
+        <input type="checkbox" name="trek"><br><br>
+        <label for="sport">Sports</label>
+        <input type="checkbox" name="sport"><br><br>
+
+        <label for="country">Country:&emsp; </label>
+        <select name="country" >
+           
+            <option value="IN"> INDIA </option>
+            <option value="US"> USA</option>
+            <option value="CH"> CHINA</option>
+            <option value="JP"> JAPAN</option>
+        </select><br><br>
+        
+        <input type="submit" value="Register">
+
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
